@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sign_up_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0FFFFFFF" >
+
+    <EditText
+        android:id="@+id/etEmailSignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/etPasswordSignUp"
+        android:layout_centerInParent="true"
+        android:ems="8"
+        android:inputType="textEmailAddress"
+        android:hint="@string/inputEmail"
+        android:autofillHints="что это???"/>
+
+    <EditText
+        android:id="@+id/etPasswordSignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/inputPassword"
+        android:autofillHints="ЧТО ЭТО БЛ?"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPasswordSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/sign_up"
+        android:textSize="12sp"
+        app:backgroundTint="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/etEmailSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/sign_up"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignUp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/have_an_account" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/tvHave"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/tv_login"
+        android:layout_toEndOf="@id/tvHave" />
+</RelativeLayout>

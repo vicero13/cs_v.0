@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cs_v.0</string>
+    <string name="add_products">Add products</string>
+    <string name="inputEmail">Email</string>
+    <string name="inputPassword">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="tv_signUp"><u>SignUp</u></string>
+    <string name="tv_create_a_new_account">Create a new account?</string>
+    <string name="tv_login">Login</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="have_an_account">Have an account?</string>
+</resources>
